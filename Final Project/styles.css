@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.main {
+    margin: 10px;
+    background: url(BUILDING.JPG) ;
+    background-attachment: fixed;
+    background-size: 1400px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:80vh; 
+}
+.main-1 {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 559px;
+    background: transparent;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    position:relative;
+    margin: 120px;
+    margin-top: 20px;
+    width: 1300px;
+    height: 80px;
+}
+.map {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logo {
+    background-color: orangered;
+    color: white;
+    height: 90px;
+    width: 160px;
+}
+.n1 {
+    background-color: orangered;
+    border: none;     
+}
+.n11 {
+    background-color: orangered;
+    border: none;
+    height: 200px;  
+}
+.n11:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.n1:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.child {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+.child:hover {
+    color: orange;
+    cursor: pointer;
+}
+.box { 
+    position: absolute;
+    top: 250px;
+    margin-left: 90px;
+}
+.heading {
+    font-size: 45px;
+    color: whitesmoke;
+}
+.h1 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.contain {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: whitesmoke;
+    background: linear-gradient(180deg,orangered, orange,orangered);
+    right: 59px;
+    top: 60%;
+    height: 200px;
+    width: 900px;
+    padding: 30px;
+}
+.head {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   margin: 90px;
+   margin-top: 220px;
+}
+.subhead {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+.serve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+}
+.Employ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 40px;
+}
+.no {
+    font-size: 50px;
+    color: orange;
+}
+.detail {
+    color: gray;
+    font-size: 20px;
+}
+.picture {
+    margin: 20px;
+    margin-top: 50px;
+}
+.p1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.g1 {
+    margin-left: 5%;
+}
+.v1 {
+    margin-top: 33px;
+    margin-right: 5%;
+    text-decoration: none;
+    color: black;
+}
+.v1:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.p2 {
+   padding: 10px;
+    margin: 5px; 
+}
+.F-title {
+    background: linear-gradient(to right, orangered,orangered,pink);
+    color: whitesmoke;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    height: 250px;  
+}
+.f {
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.f:hover{
+    text-decoration: underline;
+}
+.F-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px;
+}
+.ff {
+    margin-top: 28px;
+    color: gray;
+    text-decoration: none;
+}
+.ff:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.I {
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+}
+.img {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.I-1 {
+       margin: 10px;    
+}
+.name {
+    text-align:left;
+    margin-left: 40px;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+    background-color: orange;
+    width: 40px;
+    height: 140px;
+    position: relative;
+    left: 78%;
+    bottom: 160px;
+
+} 
+.brick {
+    height: 50px;
+    width: 50px;
+}
+.square {
+    text-decoration: none;
+    color: grey;
+}
+.square:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.twit {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 260px;
+    height: 157px;
+    width: 50px;
+    text-decoration: none;
+    background-color: black
+}
+.meet {
+    text-decoration: none;
+    color: grey;
+}
+.meet:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.inst {
+    text-decoration:underline;
+    color: whitesmoke;
+}
+.fa-brands {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+.test {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.t-1 {
+    text-align: center;
+    height: 250px;
+    width: 280px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    left: 40%;
+    top: 40px;
+    background-color: white;    
+}
+.t-1-1 {
+    text-align: center;
+    height: 250px;
+    width: 280px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    left: 40%;
+    top: 80px;
+    background-color: white;
+}
+.t-1-2 {
+    text-align: center;
+    height: 250px;
+    width: 280px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    left:63% ;
+    bottom: 430px;
+    background-color: white;
+}
+.t-1-3 {
+    text-align: center;
+    height: 250px;
+    width: 280px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    left: 63%;
+    bottom: 390px;
+    background-color: white;
+}
+.t-11 {
+    margin: 30px;
+    text-align: left;     
+}
+.spa {
+    color: gray;
+}
+.a {
+    text-decoration: none;
+    color: gray;
+}
+.a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.text {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.TT-1 {
+    margin-top: 30px;
+    text-decoration: none;
+    color: grey;
+}
+.TT-1:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.text-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text-23{
+    text-decoration: none;
+    color: black;
+}
+.text-231{
+    height: 200px;
+    padding: 10px;
+    text-align: left;
+    color: whitesmoke;
+    margin-top: 0%;
+    background: linear-gradient(to bottom,orange,orangered);
+}
+.text-132{
+    margin-left: 30px;
+}
+.text-55:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+.text-3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 89.7%;
+    bottom: 607px;
+    width: 45px;
+    height: 55px;
+    text-align: center;
+    background:linear-gradient(45deg,orangered,orange)
+}
+.text-3-1 {
+    text-align: center; 
+}
+.text-3-1-1 {
+    text-align: center;
+    background-color: white;
+}
+.foot-1 {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, orange,orangered);
+}
+.foot-2 {
+    margin: 40px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: dashed;
+    color: whitesmoke;
+}
+.foot-22 {
+    text-decoration: none;
+}
+.foot-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* border: 1px solid navy; */
+    padding: 40px;  
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: midnightblue;
+    color: whitesmoke; 
+   
+}
+.fa-solid {
+        margin: 10px;
+}
+.financial {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.financial:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
